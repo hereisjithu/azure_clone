@@ -11,22 +11,27 @@ header {
 }
 
 #nav_div1 {
-    padding: 12px;
+    padding: 10px;
     display: flex;
 
 
 }
 
-#nav_div1 img {
-    height: 28px;
-    width: 20;
+.nav-title {
+    font-size: 13px;
 }
 
 .header-title {
-    margin-top: 7px;
-    margin-left: 20px;
-    font-size: 20;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-size: 17px;
 
+}
+
+.dropdown-toggle::after {
+    margin-left: 0;
+    vertical-align: 0.1em;
+    content: '';
 }
 
 .header-title:hover {
@@ -63,12 +68,13 @@ header {
     border-radius: 4px;
     border-color: #747479;
     border: 1px solid #747479;
-    /* height: 32px; */
+    height: 32px;
     padding: 8px 8px;
     display: flex;
     margin-right: 24px;
 
 }
+
 
 .header_search label {
     margin-right: 40%;
@@ -89,20 +95,70 @@ header {
     padding: 20px 8px;
 
 }
-.free_account{
-    background-color:#6f9e02;
+
+.free_account {
+    background-color: #6f9e02;
     border-radius: 4px;
     margin: 10px 0;
     border: 1px solid #6f9e02;
     align-items: center;
-   
+
 
 }
-.free_account:hover{
+
+.free_account:hover {
     background-color: #9bdd02;
 }
 
 .nav_div3 li:hover {
     text-decoration: underline;
 
+}
+
+.textOverImage {
+    position: relative;
+    width: 100%;
+}
+
+.firstImage {
+    width: 100%;
+    zoom: 5%;
+    height: max-content;
+    position: relative;
+
+}
+
+.insideImage {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    line-height: 2.0rem;
+
+
+
+}
+.btn1 {
+    height: auto;
+    padding: 10px 15px;
+    background-color: #1174cb;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #1174cb;
+}
+.btn2{
+    margin-left: 10px;
+    
+    padding:10px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+.container-fluid{
+    justify-content: normal !important;
+    margin-left: 40px;
+}
+.container-fluid a{
+    font-size: 12px;
+    color: rgb(65, 57, 57);
+    margin-left: 25px;
 }
